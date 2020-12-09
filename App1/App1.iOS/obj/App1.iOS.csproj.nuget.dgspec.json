@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1.iOS\\App1.iOS.csproj": {}
+    "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1.iOS\\App1.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1.iOS\\App1.iOS.csproj": {
+    "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1.iOS\\App1.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1.iOS\\App1.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1.iOS\\App1.iOS.csproj",
         "projectName": "App1.iOS",
-        "projectPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1.iOS\\App1.iOS.csproj",
+        "projectPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1.iOS\\App1.iOS.csproj",
         "packagesPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1.iOS\\obj\\",
+        "outputPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1\\App1.csproj": {
-                "projectPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1\\App1.csproj"
+              "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1\\App1.csproj": {
+                "projectPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1\\App1.csproj"
               }
             }
           }
@@ -42,14 +42,6 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
-            "Microsoft.Bcl": {
-              "target": "Package",
-              "version": "[1.1.10, )"
-            },
-            "Microsoft.Bcl.Async": {
-              "target": "Package",
-              "version": "[1.0.168, )"
-            },
             "Microsoft.Bcl.Build": {
               "target": "Package",
               "version": "[1.0.21, )"
@@ -81,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1\\App1.csproj": {
+    "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1\\App1.csproj",
+        "projectUniqueName": "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1\\App1.csproj",
+        "projectPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1\\App1.csproj",
         "packagesPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1\\obj\\",
+        "outputPath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -121,14 +113,6 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
-            "Microsoft.Bcl": {
-              "target": "Package",
-              "version": "[1.1.10, )"
-            },
-            "Microsoft.Bcl.Async": {
-              "target": "Package",
-              "version": "[1.0.168, )"
-            },
             "Microsoft.Bcl.Build": {
               "target": "Package",
               "version": "[1.0.21, )"

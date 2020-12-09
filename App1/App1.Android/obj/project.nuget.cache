@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zuxHENsUvHCSgGVaOnbM+iKvR4Gtrit6jGE2q7guJ97TjZ/Z0dz9f1hwt883dWfLY7YdrDsvRE0ZTb74Vr/3FQ==",
+  "dgSpecHash": "uJx1MqeVyXdFEKEfLEjgabG9MmK+Tl4kMVMev6uFzAuQ8W4iHC/3+0C69Z+eBK3bOPB6WnBnPgVTuCIMFAr1ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Desktop\\Proyectos_C#\\App1\\App1.Android\\App1.Android.csproj",
+  "projectFilePath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1.Android\\App1.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
-    "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\microsoft.bcl.async\\1.0.168\\microsoft.bcl.async.1.0.168.nupkg.sha512",
     "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\microsoft.bcl.build\\1.0.21\\microsoft.bcl.build.1.0.21.nupkg.sha512",
     "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
