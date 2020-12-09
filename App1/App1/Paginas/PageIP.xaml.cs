@@ -51,7 +51,7 @@ namespace App1.Paginas
                     BtnConsultar.Text = "Reset Result";
                     LblUnoXaml.TextColor = Color.Red;
                     principal.LblUno = "Se ha producido un ERROR\n" +
-                    $"No se ha recibido la información esperada\n\nRecibido:{principal.LblDos.ToString()}";
+                    $"No se ha recibido la información esperada\n\nRecibido:{principal.LblDos}";
                 }//Fin del if que comprueba Si EXISTE algo en el "LblDos" del objeto recibido
 
                 //Pasamos el objeto al XAML para setear los Botones y etiquetas

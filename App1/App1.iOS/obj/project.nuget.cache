@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KTJCuP0qWV65sQucUAQxg3pVQpm7Pk6f44XjH26/h+8xUqWDa9/GNPKceVk34CX0KuM2My7h65NDWqRJaT9d6Q==",
+  "dgSpecHash": "AX2E3jl6cDKnvxZ+KMnO6GCWRrbYJqwaaqDli4B+0OZo8cosDh2tfq7TjpaCTvJ5qFJYzVQ7e2kqDj2Vn5GDhQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\W7sp1_VStudio_Xmarin\\Source\\Repos\\azanet\\WhatIsMyIp_Xamarin\\App1\\App1.iOS\\App1.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
     "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\microsoft.bcl.build\\1.0.21\\microsoft.bcl.build.1.0.21.nupkg.sha512",
-    "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\W7sp1_VStudio_Xmarin\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
   ],

@@ -75,9 +75,7 @@ C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.A
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.Android\obj\Release\90\android\assets\System.Drawing.Common.dll
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.Android\obj\Release\90\android\assets\System.Drawing.Common.pdb
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.Android\obj\Release\90\android\assets\System.Net.Http.dll
-C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.Android\obj\Release\90\android\assets\System.Net.Http.Extensions.dll
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.Android\obj\Release\90\android\assets\System.Net.Http.pdb
-C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.Android\obj\Release\90\android\assets\System.Net.Http.Primitives.dll
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.Android\obj\Release\90\android\assets\System.Numerics.dll
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.Android\obj\Release\90\android\assets\System.Numerics.pdb
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1.Android\obj\Release\90\android\assets\System.pdb
