@@ -15,28 +15,22 @@ namespace App1.Servicios
 
             var principal = new Principal(); //Creamos el objeto
 
-            var conexion = "http://ifconfig.me"; //URL DE LA PETICION
+            var conexion = $"https://ifconfig.me"; //URL DE LA PETICION
 
-            //Lanzamos "un subproceso (con USING)" y preparamos nuestro cliente HTTP
-            using (var cliente = new HttpClient()) {
+            //Creamos un objeto HttpClient  para utilizarlo en nuestras consultas
+            HttpClient cliente = new HttpClient();
+  
+            //Almacenamos la lectura de la consulta realizada
+   
+                    //Recogiendo cuerpo de la peticion realizada
+                    string responseBody = await cliente.GetStringAsync(conexion);
+                    //Console.WriteLine(responseBody);
 
-            //Lanzamos "una petición (con AWAIT para evitar problemas)" y lanzamos el cliente HTTP pasandole la URL de la petición 
-            var peticion = await cliente.GetAsync(conexion);
-            
-
-                //Nos aseguramos de que exista algo dentro de la petición
-                if (peticion != null) {
-
-                   
-                    var request = peticion.Content.ReadAsStringAsync().Result; //Almacenamos la lectura de la consulta realizada
-                    
-                    string source = request.ToString(); //Pasamos la request a una string para que no muestre caracter a caracter
-
-                    //Comprobamos que tengamos contenido en la variable "source"
-                    if (source != null) { 
+                    //Comprobamos que el "cuerpo" tenga contenido
+                    if (responseBody != null) { 
 
                     //Pasamos la String que contiene la peticion HTTP a una LIST en el que estará separada línea a línea, para poder trabajar mejor con esta utilizando un foreach 
-                       List<string> listaTextoP = source.Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                       List<string> listaTextoP = responseBody.Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).ToList();
                    
                         
                         foreach (var item in listaTextoP){ //Recorremos la LISTA
@@ -49,14 +43,9 @@ namespace App1.Servicios
                             }
                         }//Fin del foreach
 
-                    }//Fin de if request!=null
 
                 }//Fin de if peticion!=null
 
-               
-               
-            
-            }//Fin del USING
 
             return principal;
             

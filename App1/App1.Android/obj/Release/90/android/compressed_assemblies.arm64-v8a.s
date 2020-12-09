@@ -17,7 +17,7 @@
 
 	/* 1: App1.dll */
 	/* uncompressed_file_size */
-	.word	17408
+	.word	16896
 	/* loaded */
 	.byte	0
 	/* data */
@@ -98,7 +98,7 @@
 
 	/* 10: System.Net.Http.dll */
 	/* uncompressed_file_size */
-	.word	218112
+	.word	221184
 	/* loaded */
 	.byte	0
 	/* data */

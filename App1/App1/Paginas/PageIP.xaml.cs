@@ -24,7 +24,7 @@ namespace App1.Paginas
         {
 
             //Creamos un objeto NUEVO (que tendrá las qtiquetas vacías)
-            var principal = new Principal();
+            Principal principal = new Principal();
 
             //Comprobamos el estado del botón y según sea, actuará
             if (BtnConsultar.Text.ToString().Equals("Consultar IP")) {
@@ -37,22 +37,22 @@ namespace App1.Paginas
                 }
                 catch (Exception)
                 {
-                    principal = new Principal();
-
+                   
                 }
                 //Comprobamos que trae información de la IP si no... mostraremos un error
                 if (!principal.LblDos.ToString().Equals("")){
                     //Seteamos las propiedades de los Elementos
                     LblUnoXaml.TextColor = Color.White;
                     principal.LblUno = "Tu IP es:";
-                    BtnConsultar.Text = "Ocultar IP";
+                    BtnConsultar.Text = "Reset Result";
 
              
-            }else{
-                LblUnoXaml.TextColor = Color.Red;
-                principal.LblUno = "Se ha producido un ERROR\n" +
-                    "No se ha recibido la información esperada";
-            }//Fin del if que comprueba Si EXISTE algo en el "LblDos" del objeto recibido
+                }else{
+                    BtnConsultar.Text = "Reset Result";
+                    LblUnoXaml.TextColor = Color.Red;
+                    principal.LblUno = "Se ha producido un ERROR\n" +
+                    $"No se ha recibido la información esperada\n\nRecibido:{principal.LblDos.ToString()}";
+                }//Fin del if que comprueba Si EXISTE algo en el "LblDos" del objeto recibido
 
                 //Pasamos el objeto al XAML para setear los Botones y etiquetas
                 this.BindingContext = principal;

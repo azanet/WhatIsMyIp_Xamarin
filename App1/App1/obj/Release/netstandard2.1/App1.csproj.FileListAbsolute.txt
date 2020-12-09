@@ -2,7 +2,6 @@ C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\b
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\bin\Release\netstandard2.1\App1.dll
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\bin\Release\netstandard2.1\ref\App1.dll
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\bin\Release\netstandard2.1\App1.pdb
-C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\obj\Release\netstandard2.1\App1.csprojAssemblyReference.cache
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\obj\Release\netstandard2.1\App.xaml.g.cs
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\obj\Release\netstandard2.1\MainPage.xaml.g.cs
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\obj\Release\netstandard2.1\Paginas\PageIP.xaml.g.cs
