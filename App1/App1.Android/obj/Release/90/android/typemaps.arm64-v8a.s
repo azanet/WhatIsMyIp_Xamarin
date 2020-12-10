@@ -40,8 +40,8 @@ java_name_width:
 	.p2align	3
 	.global	map_modules
 map_modules:
-	/* module_uuid: 464ae306-2b85-45fa-a953-9fd258e19064 */
-	.byte	0x06, 0xe3, 0x4a, 0x46, 0x85, 0x2b, 0xfa, 0x45, 0xa9, 0x53, 0x9f, 0xd2, 0x58, 0xe1, 0x90, 0x64
+	/* module_uuid: e9b9ad04-53a1-43f0-a96d-beb7161620c4 */
+	.byte	0x04, 0xad, 0xb9, 0xe9, 0xa1, 0x53, 0xf0, 0x43, 0xa9, 0x6d, 0xbe, 0xb7, 0x16, 0x16, 0x20, 0xc4
 	/* entry_count */
 	.word	1
 	/* duplicate_count */
@@ -50,7 +50,7 @@ map_modules:
 	.xword	module0_managed_to_java
 	/* duplicate_map */
 	.xword	0
-	/* assembly_name: Xamarin.Essentials */
+	/* assembly_name: App1.Android */
 	.xword	.L.map_aname.0
 	/* image */
 	.xword	0
@@ -60,8 +60,8 @@ map_modules:
 	.zero	4
 	.xword	0
 
-	/* module_uuid: 55cc9a0d-6d42-4249-b2dc-924a93f704b2 */
-	.byte	0x0d, 0x9a, 0xcc, 0x55, 0x42, 0x6d, 0x49, 0x42, 0xb2, 0xdc, 0x92, 0x4a, 0x93, 0xf7, 0x04, 0xb2
+	/* module_uuid: 464ae306-2b85-45fa-a953-9fd258e19064 */
+	.byte	0x06, 0xe3, 0x4a, 0x46, 0x85, 0x2b, 0xfa, 0x45, 0xa9, 0x53, 0x9f, 0xd2, 0x58, 0xe1, 0x90, 0x64
 	/* entry_count */
 	.word	1
 	/* duplicate_count */
@@ -70,7 +70,7 @@ map_modules:
 	.xword	module1_managed_to_java
 	/* duplicate_map */
 	.xword	0
-	/* assembly_name: App1.Android */
+	/* assembly_name: Xamarin.Essentials */
 	.xword	.L.map_aname.1
 	/* image */
 	.xword	0
@@ -7012,7 +7012,7 @@ map_java:
 
 	/* #729 */
 	/* module_index */
-	.word	0
+	.word	1
 	/* type_token_id */
 	.word	33554448
 	/* java_name */
@@ -7021,7 +7021,7 @@ map_java:
 
 	/* #730 */
 	/* module_index */
-	.word	1
+	.word	0
 	/* type_token_id */
 	.word	33554434
 	/* java_name */

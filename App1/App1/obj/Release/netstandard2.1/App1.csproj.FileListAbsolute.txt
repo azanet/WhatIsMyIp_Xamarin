@@ -12,3 +12,4 @@ C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\o
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\obj\Release\netstandard2.1\App1.dll
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\obj\Release\netstandard2.1\ref\App1.dll
 C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\obj\Release\netstandard2.1\App1.pdb
+C:\Users\W7sp1_VStudio_Xmarin\Source\Repos\azanet\WhatIsMyIp_Xamarin\App1\App1\obj\Release\netstandard2.1\App1.csprojAssemblyReference.cache

@@ -1,15 +1,15 @@
 	.section	.rodata.module0_managed_to_java,"a",%progbits
 	.type	module0_managed_to_java, %object
 module0_managed_to_java:
-	.long	33554448
-	.long	729
+	.long	33554434
+	.long	730
 	.size	module0_managed_to_java, 8
 
 	.section	.rodata.module1_managed_to_java,"a",%progbits
 	.type	module1_managed_to_java, %object
 module1_managed_to_java:
-	.long	33554434
-	.long	730
+	.long	33554448
+	.long	729
 	.size	module1_managed_to_java, 8
 
 	.section	.rodata.module2_managed_to_java,"a",%progbits

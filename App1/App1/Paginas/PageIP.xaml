@@ -9,9 +9,11 @@
 
                 <Label Text="{Binding Titulo}" TextColor="GreenYellow" FontSize="Medium" Padding="0,0,0,20"/>
                 <Button x:Name="BtnConsultar" Text="Consultar IP" WidthRequest="200" BorderWidth="1" Clicked="BtnConsultar_Clicked" FontSize="Small" />
-                <Label x:Name="LblUnoXaml"  Text="{Binding LblUno}" TextColor="White" FontSize="Small" Padding="0,20,0,10"/>
-                <Label Text="{Binding LblDos}" TextColor="Yellow" FontSize="Medium"/>
-
+                
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="LblUnoXaml"  Text="{Binding LblUno}" TextColor="White" FontSize="Small" Padding="0,24,10,0"/>
+                    <Label Text="{Binding LblDos}" TextColor="Yellow" FontSize="Medium" Padding="0,20,0,0"/>
+                </StackLayout>
 
             </StackLayout>
         </ScrollView>

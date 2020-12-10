@@ -20,7 +20,7 @@ namespace App1.Servicios
             //Creamos un objeto HttpClient  para utilizarlo en nuestras consultas
             HttpClient cliente = new HttpClient();
   
-            //Almacenamos la lectura de la consulta realizada
+            //Almacenamos la lectura de la consulta realizada (que será un HTML)
    
                     //Recogiendo cuerpo de la peticion realizada
                     string responseBody = await cliente.GetStringAsync(conexion);
